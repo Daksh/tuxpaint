@@ -25,8 +25,8 @@
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 # (See COPYING.txt)
 
-# Note: "0.9.22", "0x00000002", "/home/test/Activities/tuxpaint.activity/include/tuxpaint",
-# "/home/test/Activities/tuxpaint.activity/lib/tuxpaint/plugins", "/home/test/Activities/tuxpaint.activity/share/doc/tuxpaint/magic-docs" and "/home/test/Activities/tuxpaint.activity/share/tuxpaint" are replaced
+# Note: "0.9.22", "0x00000002", "/home/dshahfedora/Activities/tuxpaint.activity/include/tuxpaint",
+# "/home/dshahfedora/Activities/tuxpaint.activity/lib/tuxpaint/plugins", "/home/dshahfedora/Activities/tuxpaint.activity/share/doc/tuxpaint/magic-docs" and "/home/dshahfedora/Activities/tuxpaint.activity/share/tuxpaint" are replaced
 # by values in Tux Paint's Makefile, via 'sed', by the 'make tp-magic-config'
 # target.
 
@@ -43,11 +43,11 @@ if [ $# -ne 0 ]; then
     exit
   fi
   if [ $1 = "--cflags" ]; then
-    echo `sdl-config --cflags` -I/home/test/Activities/tuxpaint.activity/include/tuxpaint
+    echo `sdl-config --cflags` -I/home/dshahfedora/Activities/tuxpaint.activity/include/tuxpaint
     exit
   fi
   if [ $1 = "--dataprefix" ]; then
-    echo "/home/test/Activities/tuxpaint.activity/share/tuxpaint"
+    echo "/home/dshahfedora/Activities/tuxpaint.activity/share/tuxpaint"
     exit
   fi
   if [ $1 = "--localdataprefix" ]; then
@@ -55,7 +55,7 @@ if [ $# -ne 0 ]; then
     exit
   fi
   if [ $1 = "--pluginprefix" ]; then
-    echo "/home/test/Activities/tuxpaint.activity/lib/tuxpaint/plugins"
+    echo "/home/dshahfedora/Activities/tuxpaint.activity/lib/tuxpaint/plugins"
     exit
   fi
   if [ $1 = "--localpluginprefix" ]; then
@@ -63,7 +63,7 @@ if [ $# -ne 0 ]; then
     exit
   fi
   if [ $1 = "--plugindocprefix" ]; then
-    echo "/home/test/Activities/tuxpaint.activity/share/doc/tuxpaint/magic-docs"
+    echo "/home/dshahfedora/Activities/tuxpaint.activity/share/doc/tuxpaint/magic-docs"
     exit
   fi
 fi

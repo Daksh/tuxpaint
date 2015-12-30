@@ -1,4 +1,4 @@
-prefix=/home/test/Activities/tuxpaint.activity
+prefix=/home/dshahfedora/Activities/tuxpaint.activity
 exec_prefix=${prefix}
 libdir=${prefix}/lib
 includedir=${prefix}/include

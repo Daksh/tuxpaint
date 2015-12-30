@@ -1,8 +1,3 @@
-v6 2011-10-15
-~~~~~~~~~~~~~
-- Add thumbs for starter images to speed up "New" dialog
-- Support thumbs for stamps to speed up stamps browsing
-
 v5 2010-06-10
 ~~~~~~~~~~~~~
 * Revert save button to save current image (not keep)
